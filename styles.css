@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+}
+ul {
+    visibility: visible;
+}
+
+#menu {
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0%;
+    display: grid;
+    grid-template-areas: 1fr / 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(76, 175, 80, 0.6);
+    padding: 0%;
+}
+
+p {
+   background-color: aqua;
+   margin: 20px;
+   font-size: 40px;
+}
+#menu li {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+}
